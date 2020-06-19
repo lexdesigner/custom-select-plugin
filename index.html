@@ -1,9 +1,46 @@
-<button data-type="open">Открыть</button>
-<button data-type="close">Закрыть</button>
-<button data-type="set">Выбрать 2 индекс</button>
-<button data-type="get">Получить выбранный</button>
-<button data-type="clear">Очистить</button>
-<button data-type="destroy">Уничтожить</button>
-<p id="log"></p>
-<div id="select"></div>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Custom select</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>Select plugin</h1>
+  <div id="settings">
+    <ul id="actions">
+      <li>
+        <button data-type="open">Открыть</button>
+      </li>
+      <li>
+        <button data-type="close">Закрыть</button>
+      </li>
+      <li>
+        <button data-type="set">Выбрать 2 индекс</button>
+      </li>
+      <li>
+        <button data-type="get">Получить выбранный</button>
+      </li>
+      <li>
+        <button data-type="clear">Очистить</button>
+      </li>
+      <li>
+        <button data-type="destroy">Уничтожить</button>
+      </li>
+    </ul>
+      <p id="log"></p>
+  </div>
+
+  <div id="select"></div>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
